@@ -8,5 +8,5 @@ metadata:
 spec:
   type: Git
   pathname: https://github.com/avaleror/policy-test-certs.git
-  #configMapRef:
-    #name: git-ca
+  configMapRef:
+    name: git-ca

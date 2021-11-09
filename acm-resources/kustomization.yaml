@@ -11,6 +11,7 @@ generatorOptions:
 # list of Resource Config to be Applied
 resources:
   - namespace.yaml
+  - git-ca.yaml
   - channel.yaml
   - subscription.yaml
 
