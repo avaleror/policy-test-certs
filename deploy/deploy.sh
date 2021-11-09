@@ -121,10 +121,10 @@ echo "$KUST_CFG" > kustomization.yaml
 
 # Deploy the resources to the cluster
 kubectl kustomize . > resources.yaml
-kubectl apply -f resources.yaml
+#kubectl apply -f resources.yaml
 
 # Remove artifacts
-rm channel_patch.json
-rm subscription_patch.json
-rm kustomization.yaml
-rm resources.yaml
+#rm channel_patch.json
+#rm subscription_patch.json
+#rm kustomization.yaml
+#rm resources.yaml

@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: git-ca
+  namespace: channel-ns
+data:
+  caCerts: |
+    # Git server root CA
+
+    -----BEGIN CERTIFICATE-----
+    -----END CERTIFICATE-----
+
+    # Git server intermediate CA 1
+
+    -----BEGIN CERTIFICATE-----
+    -----END CERTIFICATE-----
+
+    # Git server intermediate CA 2
+
+    -----BEGIN CERTIFICATE-----
+    -----END CERTIFICATE-----

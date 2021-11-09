@@ -1,0 +1,22 @@
+[
+    {
+        "op": "replace",
+        "path": "/metadata/name",
+        "value": "certs-sub"
+    },
+    {
+        "op": "replace",
+        "path": "/metadata/annotations/apps.open-cluster-management.io~1git-branch",
+        "value": "master"
+    },
+    {
+        "op": "replace",
+        "path": "/metadata/annotations/apps.open-cluster-management.io~1git-path",
+        "value": "stable"
+    },
+    {
+        "op": "replace",
+        "path": "/spec/channel",
+        "value": "acm-policies/certs-chan"
+    }
+]
