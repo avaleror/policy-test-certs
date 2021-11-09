@@ -7,6 +7,6 @@ metadata:
   name: demo-stable-policies-sub
   namespace: test-policies
 spec:
-  channel: policies/stable-policies-chan
+  channel: test-policies/stable-policies-chan
   placement:
     local: true

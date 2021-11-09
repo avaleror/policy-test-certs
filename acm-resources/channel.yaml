@@ -2,11 +2,11 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: Channel
 metadata:
   name: stable-policies-chan
-  namespace: acm-policies
+  namespace: test-policies
   annotations:
     apps.open-cluster-management.io/reconcile-rate: medium
 spec:
   type: Git
   pathname: https://github.com/avaleror/policy-test-certs.git
-  configMapRef:
-    name: git-ca
+  #configMapRef:
+    #name: git-ca

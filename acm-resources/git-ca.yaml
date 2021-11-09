@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: git-ca
-  namespace: acm-policies
+  namespace: test-policies
 data:
   caCerts: |
     # Git server root CA
